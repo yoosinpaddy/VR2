@@ -1,0 +1,3 @@
+rootProject.name='VR2'
+include ':app'
+include ':crosswalk'

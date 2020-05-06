@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.chromium.ui.ColorPickerAdvanced android:id="@+id/color_picker_advanced" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <org.chromium.ui.ColorPickerSimple android:id="@+id/color_picker_simple" android:background="@drawable/color_picker_border" android:paddingLeft="1px" android:paddingTop="1px" android:paddingRight="1px" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/color_picker_border_color" android:dividerHeight="1px"/>
+    <FrameLayout android:id="@+id/more_colors_button_border" android:background="@drawable/color_picker_border" android:padding="1px" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.chromium.ui.ColorPickerMoreButton android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/more_colors_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/color_picker_button_more" style="?android:attr/buttonBarButtonStyle"/>
+    </FrameLayout>
+</LinearLayout>

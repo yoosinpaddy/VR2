@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/keyboard_accessory_half_padding" android:insetRight="@dimen/keyboard_accessory_half_padding" android:insetTop="@dimen/keyboard_accessory_padding" android:insetBottom="@dimen/keyboard_accessory_padding">
+    <shape>
+        <solid android:color="#eceff1"/>
+        <corners android:radius="2dp"/>
+    </shape>
+</inset>

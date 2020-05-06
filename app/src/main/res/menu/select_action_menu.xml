@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/select_action_menu_cut"
+        android:alphabeticShortcut="x"
+        android:icon="?android:attr/actionModeCutDrawable"
+        android:title="@android:string/cut"
+        app:showAsAction="never|ifRoom|withText" />
+    <item
+        android:id="@+id/select_action_menu_copy"
+        android:alphabeticShortcut="c"
+        android:icon="?android:attr/actionModeCopyDrawable"
+        app:showAsAction="never|ifRoom|withText"
+        android:title="@android:string/copy" />
+    <item
+        android:id="@+id/select_action_menu_paste"
+        android:alphabeticShortcut="v"
+        android:icon="?android:attr/actionModePasteDrawable"
+        app:showAsAction="never|ifRoom|withText"
+        android:title="@android:string/paste" />
+    <item
+        android:id="@+id/select_action_menu_share"
+        style="@style/SelectActionMenuShare"
+        app:showAsAction="never|ifRoom|withText"
+        android:title="@string/actionbar_share" />
+    <item
+        android:id="@+id/select_action_menu_select_all"
+        android:alphabeticShortcut="a"
+        android:icon="?android:attr/actionModeSelectAllDrawable"
+        app:showAsAction="never|ifRoom|withText"
+        android:title="@android:string/selectAll" />
+    <group android:id="@+id/select_action_menu_text_processing_menus" />
+    <item
+        android:id="@+id/select_action_menu_web_search"
+        style="@style/SelectActionMenuWebSearch"
+        app:showAsAction="never|ifRoom|withText"
+        android:title="@string/actionbar_web_search" />
+</menu>

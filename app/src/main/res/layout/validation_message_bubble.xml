@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/top_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1" android:layout_alignLeft="@+id/icon_view" android:layout_alignRight="@+id/text_wrapper">
+        <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.25"/>
+        <ImageView android:id="@+id/arrow_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7dp" android:src="@drawable/bubble_arrow_up" android:contentDescription="@null"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/icon_view" android:layout_width="19dp" android:layout_height="19dp" android:layout_marginRight="8dp" android:src="@drawable/ic_warning" android:layout_below="@+id/top_view" android:layout_alignParentLeft="true" android:contentDescription="@null"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/text_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/icon_view" android:layout_below="@+id/top_view">
+        <TextView android:textSize="16sp" android:textColor="@android:color/black" android:id="@+id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp"/>
+        <TextView android:textSize="13sp" android:textColor="#444" android:id="@+id/sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp"/>
+    </LinearLayout>
+</RelativeLayout>

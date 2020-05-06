@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adSize" format="string">
+    </attr>
+    <attr name="adSizes" format="string">
+    </attr>
+    <attr name="adUnitId" format="string">
+    </attr>
+    <attr name="buttonColor" format="reference|color">
+    </attr>
+    <attr name="buttonRaised" format="boolean">
+    </attr>
+    <attr name="leading" format="reference|dimension">
+    </attr>
+    <attr name="primaryButtonText" format="reference|string">
+    </attr>
+    <attr name="secondaryButtonText" format="reference|string">
+    </attr>
+    <attr name="select_dialog_multichoice" format="reference">
+    </attr>
+    <attr name="select_dialog_singlechoice" format="reference">
+    </attr>
+    <attr name="stackedMargin" format="reference">
+    </attr>
+</resources>
